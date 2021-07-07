@@ -14,22 +14,72 @@
             body{
                 background-color: whitesmoke;
                 padding:50px;
+               
             }
 
             .inner{
+                border: 1px solid gray;
                 width: 70%;
-                padding: 2em;
-                height: 50%;
+                padding: 3em;
+                height:auto;
+                  overflow :hidden;
+    min-height:100px;
                 top: 10%;
                 margin: 0 auto;
                 position: relative;
                 background:orange;
             }
 
+            .ba_zi_pillars{
+               
+                width: auto;
+                padding: 2em;
+               margin-top: 60px;
+                position: relative;
+                border: 1px solid gray;
+            }
+            
+            .ba_zi_lucky_pillars{
+               
+                width: auto;
+                padding: 2em;
+                margin-top: 60px;
+                position: relative;
+                border: 1px solid gray;
+            }
+
+
             .row{
                 background-color: white;
                 border: 1px solid #ccc;
-                height: 1000px;padding: 2em;
+                height: auto;padding: 2em;
+            }
+            
+            .tbl_bazi_4_pillars{
+                width:70%;
+                text-align: center;
+                margin: 0 auto;
+            }
+            
+            .tbl_bazi_4_pillars_sub{
+                width:100%;
+                text-align: center;
+                border: 0px;
+            }
+            
+           
+            
+            
+            
+            .v_bottom{
+                vertical-align: bottom;
+                font-size: 14pt;
+                width: 50%;
+            }
+            
+            .v_top{
+                vertical-align: top;
+                width: 50%;
             }
 
         </style>
